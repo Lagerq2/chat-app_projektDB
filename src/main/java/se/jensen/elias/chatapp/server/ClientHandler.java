@@ -1,11 +1,11 @@
-package se.sprinto.hakan.chatapp;
+package se.jensen.elias.chatapp.server;
 
-import se.sprinto.hakan.chatapp.dao.MessageDAO;
-import se.sprinto.hakan.chatapp.dao.MessageListDAO;
-import se.sprinto.hakan.chatapp.dao.UserDAO;
-import se.sprinto.hakan.chatapp.dao.UserListDAO;
-import se.sprinto.hakan.chatapp.model.Message;
-import se.sprinto.hakan.chatapp.model.User;
+import se.jensen.elias.chatapp.dao.MessageDAO;
+import se.jensen.elias.chatapp.dao.impl.MessageListDAO;
+import se.jensen.elias.chatapp.dao.UserDAO;
+import se.jensen.elias.chatapp.dao.impl.UserListDAO;
+import se.jensen.elias.chatapp.model.Message;
+import se.jensen.elias.chatapp.model.User;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -106,7 +106,7 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    void sendMessage(String msg) {
+    public void sendMessage(String msg) {
         if (out != null) out.println(msg);
     }
 }

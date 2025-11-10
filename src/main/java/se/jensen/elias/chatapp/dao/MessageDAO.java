@@ -1,6 +1,6 @@
-package se.sprinto.hakan.chatapp.dao;
+package se.jensen.elias.chatapp.dao;
 
-import se.sprinto.hakan.chatapp.model.Message;
+import se.jensen.elias.chatapp.model.Message;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package se.sprinto.hakan.chatapp;
+package se.jensen.elias.chatapp.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -12,6 +12,7 @@ public class ChatServer {
     private final Set<ClientHandler> clients = ConcurrentHashMap.newKeySet();
 
     public ChatServer(int port) {
+
         this.port = port;
     }
 

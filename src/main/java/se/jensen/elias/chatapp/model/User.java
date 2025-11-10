@@ -1,4 +1,4 @@
-package se.sprinto.hakan.chatapp.model;
+package se.jensen.elias.chatapp.model;
 
 import java.util.ArrayList;
 import java.util.List;

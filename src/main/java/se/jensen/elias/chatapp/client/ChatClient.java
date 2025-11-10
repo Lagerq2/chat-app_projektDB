@@ -1,4 +1,4 @@
-package se.sprinto.hakan.chatapp;
+package se.jensen.elias.chatapp.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;

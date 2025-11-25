@@ -43,12 +43,22 @@ public class User {
         return password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public void addMessage(Message message) {
         messages.add(message);
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public List<Message> getMessages() {
+        return messages;
     }
+
+    public void setMessages(List<Message> messages) {
+        this.messages = messages;
+    }
+
+
 }
 
